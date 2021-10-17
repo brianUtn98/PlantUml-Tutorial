@@ -14,6 +14,7 @@ Se quiere poder tomar registro de los distintos viajes que la empresa otorga, y 
 * Los pasajeros que lo abordan.
 * El origen, del que solo se conoce el nombre.
 * El destino, del que solo se conoce el nombre.
+
 Además a cada viaje se le quiere poder preguntar:
 * Si está lleno, es decir que la cantidad de pasajeros que están anotados coincide con la capacidad máxima del transporte.
 * Si el viaje es express. Es decir, si la fecha de salida coincide con la llegada.
@@ -30,6 +31,7 @@ Se sabe que el viaje debe ser reconfigurable en el tiempo, ya que puede quedar l
 * El tamaño del tanque de nafta (en litros)
 * La cantidad de litros de nafta que posee actualmente.
 * La capacidad (cantidad máxima de pasajeros). Se sabe que los micros vienen de distintas capacidades y debe ser configurable.
+
 Además se le quiere poder preguntar:
 *  si se está quedando sin nafta, que se cumple cuando tiene menos de 10 litros.
 *  si es extra large, o sea que puede llevar más de 20 pasajeros.
@@ -46,7 +48,8 @@ La empresa se amplía, por lo que estará incorporando viajes en avión.
 ### De cada avión se sabe
 * El modelo, que es alfanumérico.
 * El modelo de turbinas, de las que se conoce las revoluciones por minuto y el peso. Se pueden cambiar las turbinas de un avión.
-* La cantidad de turbinas que posee
+* La cantidad de turbinas que posee.
+
 Además se le quiere poder preguntar la velocidad máxima, que es de 100 veces las revoluciones por minuto de cada turbina.
 Se sabe que la capacidad de todos los aviones es la misma, 150 pasajeros. Se quiere que el viaje soporte saber si está lleno teniendo en cuenta la capacidad del avión.
 Saber además si un avión es seguro, es decir que su peso máximo es menor a 15000. 

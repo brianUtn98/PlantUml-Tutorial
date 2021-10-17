@@ -1,1 +1,4 @@
-# PlantUml-Tutorial
+# Guía de uso de Plantuml 
+
+## Enunciado a resolver
+Se desea hacer una aplicación en wollok que modele el comportamiento de los animales. De ellos conocemos su energía, saben comer y dormir. Los animales pueden ser voladores y terrestres. Los animales voladores saben volar y conocen la cantidad de plumas que tienen. Los animales terrestres saben caminar, correr y conocen la cantidad de patas que tienen y su especie. De las especies solo se conoce su nombre. También hay personas de las que conocemos su nombre, edad , peso y vitalidad, saben caminar y correr (igual que los animales terrestres) pero también saben tomar una bebida que se les de que les sube la vitalidad y el peso según la cantidad de calorías y proteínas que tenga. Por último conocemos a un animal de dudosa provenencia (no se sabe si es terrestre o volador), se conoce además de su energía, la cantidad de años que lleva en el planeta tierra que es igual 200 millones. Sabe hacer las mismas cosas que los otros animales.

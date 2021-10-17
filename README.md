@@ -40,6 +40,7 @@ La empresa se amplía, por lo que estará incorporando viajes en avión.
 * El modelo de turbinas, de las que se conoce las revoluciones por minuto y el peso.
 * La cantidad de turbinas que posee
 Además se le quiere poder preguntar la velocidad máxima, que es de 100 veces las revoluciones por minuto de cada turbina.
+Se sabe que la capacidad de todos los aviones es la misma, 150 pasajeros. Se quiere que el viaje soporte saber si está lleno teniendo en cuenta la capacidad del avión.
 
 ### además
 La empresa incorporó una trafic renault para viajes cortos. De la misma solo se conoce el nombre del chofer.
@@ -58,6 +59,7 @@ Se quiere que un asiento pueda ser reservado por un pasajero, por lo que pasa a 
   * Además se sabe la cantidad de pulgadas que tiene la TV del asiento.
   * Se sabe si el asiento tiene o no masajeador
 2. Clase turista
+  * Se sabe si es del lado de la ventana o del pasillo.
 
 
 

@@ -1,0 +1,90 @@
+@startuml
+class Viaje{
+fechaSalida
+fechaLlegada
+pasajeros
+origen
+destino
+transporte
+
+estaLleno()
+exExpress()
+esCabotaje()
+}
+
+class Pasajero{
+nombre
+apellido
+edad
+sexo
+}
+
+interface Transporte{
+capacidad()
+}
+
+class Micro{
+tamnioTanque
+litrosNafta
+capacidad
+
+sinNafta()
+extraLarge()
+capacidad()
+}
+
+class Avion{
+modelo
+turbinas
+cantidadTurbinas
+
+velocidadMaxima()
+capacidad()
+esSeguro()
+}
+
+class Turbina{
+rpm
+peso
+}
+
+object trafic{
+chofer
+
+capacidad()
+}
+
+abstract class Asiento{
+numero
+disponible
+pasajero
+
+reservar(unPasajero)
+estaOcupado()
+}
+
+class PrimeraClase{
+pulgadasTV
+
+tieneMasajeador()
+}
+
+class ClaseTurista{
+lado
+}
+
+
+Viaje -->"*" Asiento
+Viaje --> Transporte
+
+Avion --> Turbina
+
+Transporte <|.. Micro
+Transporte <|.. Avion
+Transporte <|.. trafic
+
+Asiento <|-- ClaseTurista
+Asiento <|-- PrimeraClase
+Asiento --> Pasajero
+Asiento ..> Pasajero
+@enduml

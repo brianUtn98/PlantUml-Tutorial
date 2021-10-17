@@ -19,6 +19,8 @@ Además a cada viaje se le quiere poder preguntar:
 * Si el viaje es express. Es decir, si la fecha de salida coincide con la llegada.
 * Si es un viaje de cabotaje, es decir que el destino coincide con el origen del viaje.
 
+Se sabe que el viaje debe ser reconfigurable en el tiempo, ya que puede quedar ligado a cambios climáticos entre otras cosas.
+
 ### De los pasajeros se conoce
 * Nombre y apellido
 * Edad

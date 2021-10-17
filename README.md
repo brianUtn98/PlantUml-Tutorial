@@ -36,6 +36,7 @@ Además se le quiere poder preguntar:
 
 ## Segunda iteración
 La empresa se amplía, por lo que estará incorporando viajes en avión. 
+
 <img src="viajeAvion.jpg">
 
 ### De cada avión se sabe
@@ -52,6 +53,7 @@ La empresa incorporó una trafic renault para viajes cortos. De la misma solo se
 
 ## Tercera iteración
 Dado el éxito que tuvo la empresa en el último fin de semana largo, decidieron incorporar distintos tipos de asientos al viaje, por lo que ahora no solo se debe registrar los pasajeros de un viaje, sino también los asientos que posee el viaje y qué pasajero ocupa cada uno.
+
 <img src="viajesPremium.jpg">
 
 ### de los asientos sabemos que

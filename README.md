@@ -34,6 +34,10 @@ Además se le quiere poder preguntar:
 *  si se está quedando sin nafta, que se cumple cuando tiene menos de 10 litros.
 *  si es extra large, o sea que puede llevar más de 20 pasajeros.
 
+### Diagrama:
+
+<img src="DiagramaIt1.png">
+
 ## Segunda iteración
 La empresa se amplía, por lo que estará incorporando viajes en avión. 
 
@@ -50,6 +54,10 @@ El peso de un avión se calcula estimando 80kg por pasajero + el peso de las tur
 
 ### además
 La empresa incorporó una trafic renault para viajes cortos. De la misma solo se conoce el nombre del chofer.
+
+### Diagrama:
+
+<img src="DiagramaIt2.png">
 
 ## Tercera iteración
 Dado el éxito que tuvo la empresa en el último fin de semana largo, decidieron incorporar distintos tipos de asientos al viaje, por lo que ahora no solo se debe registrar los pasajeros de un viaje, sino también los asientos que posee el viaje y qué pasajero ocupa cada uno.
@@ -68,6 +76,10 @@ Se quiere que un asiento pueda ser reservado por un pasajero, por lo que pasa a 
   * Se sabe si el asiento tiene o no masajeador
 2. Clase turista
   * Se sabe si es del lado de la ventana o del pasillo.
+
+### Diagrama: 
+
+<img src="DiagramaIt3.png">
 
 
 

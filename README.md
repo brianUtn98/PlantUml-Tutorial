@@ -39,10 +39,12 @@ La empresa se amplía, por lo que estará incorporando viajes en avión.
 
 ### De cada avión se sabe
 * El modelo, que es alfanumérico.
-* El modelo de turbinas, de las que se conoce las revoluciones por minuto y el peso.
+* El modelo de turbinas, de las que se conoce las revoluciones por minuto y el peso. Se pueden cambiar las turbinas de un avión.
 * La cantidad de turbinas que posee
 Además se le quiere poder preguntar la velocidad máxima, que es de 100 veces las revoluciones por minuto de cada turbina.
 Se sabe que la capacidad de todos los aviones es la misma, 150 pasajeros. Se quiere que el viaje soporte saber si está lleno teniendo en cuenta la capacidad del avión.
+Saber además si un avión es seguro, es decir que su peso máximo es menor a 15000. 
+El peso de un avión se calcula estimando 80kg por pasajero + el peso de las turbinas.
 
 ### además
 La empresa incorporó una trafic renault para viajes cortos. De la misma solo se conoce el nombre del chofer.
